@@ -79,7 +79,7 @@ public class Передвижение : MonoBehaviour
             transform.position = pos;
 
             //Атака
-
+            //
             if (Input.GetMouseButtonUp(0) && !isJumping && !roll)
             {
                 sword.SetActive(true);
